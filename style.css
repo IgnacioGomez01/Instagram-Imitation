@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+}
+
+html{
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+#Contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.divMenulateral{
+    width: 17.45%;
+    height: 100%;
+    border-right: solid 1px #262626;
+}
+
+.segmentoBotones{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.InstagramHome{
+    height: 11.2%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.botonInstagram{
+    background-color: black;
+    border: 0px !important;
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    width: 93%;
+}
+
+.botonInstagram img{
+    height: 2.2rem;
+}
+
+
+.botones{
+    padding-left: 0.77rem;
+    display: flex;
+    flex-direction: column;
+    height: 75.5%;
+}
+
+.botones a{
+    height: 3.1rem;
+    margin-bottom: 0.38rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 93.7%;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+
+.cadaIcono{
+    background: url(./img/iconosMedio.png);
+    height: 32px;
+    width: 44px;
+    border-radius: 50%;
+}
+
+.botonInicio .cadaIcono{
+    background-position: 87px -4px;
+}
+
+.botonBuscar .cadaIcono{
+    background-position: 87px -59px;
+}
+
+.botonExplorar .cadaIcono{
+    background-position: 87px -115px;
+}
+
+.botonReels .cadaIcono{
+    background-position: 87px -171px;
+}
+
+.botonMensajes .cadaIcono{
+    background-position: 87px -226px;
+}
+
+.botonNotificaciones .cadaIcono{
+    background-position: 87px -282px;
+}
+
+.botonCrear .cadaIcono{
+    background-position: 87px -338px;
+}
+
+.botonPerfil .cadaIcono{
+    background-position: 87px -395px;
+}
+
+.botones a p{
+    color: white; 
+    font-family: system-ui;
+}
+
+.botonExplorar p {
+    height: 1.2rem;
+}
+
+.botonReels p {
+    height: 1.2rem;
+}
+
+.botonMensajes p {
+    height: 1.2rem;
+}
+
+.botonNotificaciones p {
+    height: 1.1rem;
+}
+
+.botonCrear p{
+    height: 1.1rem;
+}
+
+.botonPerfil {
+    margin-top: 0.1rem;
+}
+
+.botonPerfil p {
+    height: 1.2rem;
+}
+
+.threadsAndMore{
+    padding-left: 5.7%;
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+}
+
+.cadaIcono2{
+    background: url(./img/IconosAbajo.png);
+    height: 32px;
+    width: 44px;
+    border-radius: 50%;
+    
+}
+
+.threadsAndMore a{
+    height: 3.1rem;
+    margin-bottom: 0.38rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.threadsAndMore a p{
+    color: white; 
+    font-family: system-ui;
+}
+
+.botonThreads .cadaIcono2{
+    background-position: -5px -2px;
+}
+
+.botonMas .cadaIcono2{
+    background-position: -5px -60px;
+}
+
+.botones a:hover{
+    background-color: #ffffff1a;
+}
+
+/*FIN LATERAL IZQUIERDO*/
+
+
+/* INICIO CONTENIDO CENTRAL*/
+
+.divCentral {
+    width: 47.2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divContenidoCentral{
+    width: 69.3%;
+    padding-top: 1.5rem;
+}
+
+.divHistorias{
+    width: 100%;
+    height: 9.2%;
+    margin-bottom: 30px;
+}
+
+.divFotoHistorias{
+    height: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fotoHistoriaUsers{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.circuloHistoria{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.liHistorias{
+    width: 11%;
+    height: 100%; 
+    cursor: pointer;
+}
+
+.divNombreHistorias{
+    margin-top: 0.1rem;
+}
+
+.nombreUsuariosHistorias {
+    color: white;
+    font-size: 12px;
+    font-family: system-ui;
+    text-align: center;
+    padding-right: 2px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.divFeedInicio{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.feedUsuario{
+    width: 74.8%;
+    border: 1px solid red;
+}
+
+.infoSuperiorPublicacion{
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.47rem;
+}
+
+
+.divFotoUserPublicacion{
+    width: 8.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.divFotoUserPublicacion img{
+    position: absolute;
+}
+
+.historiaFotoPerfilPublicacion{
+    z-index: 2;
+    width: 98%;
+    height: 93%;
+}
+
+.userFotoPerfilPublicacion{
+    border-radius: 50%;
+    width: 78%;
+    height: 77%;
+}
+
+.opcionesPublicacion{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.opcionesPublicacion{
+    padding-right: 2px;
+}
+
+.nombreTiempoPublicacion{
+    width: 86%;
+
+}
+
+.nombreUsuarioPublicaciones{
+    color: #f5f5f5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.divNombreyHoraPublicacion{
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+}
+
+.verificadoUsuariosPublicaciones{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-left: 4px;
+}
+
+.puntoPostNombre{
+    color: grey;
+    font-size: 2rem;
+}
+
+.tiempoDePublicacion{
+    color: #a8a8a8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 2px;
+}
+
+.contenidoPublicacion{
+    width: 100%;
+    border-radius: 5px;
+    max-height: 36.4rem;
+}
+
+.contenidoImportantePublicacion{
+    max-height: 36.4rem;
+}
+
+.iconosPublicacion{
+    background: url(./img/iconosPublicacion.png);
+    height: 24px;
+    width: 28px;
+}
+
+.iconosPublicacion:hover {
+    opacity: 75%;
+}
+
+.informacionInferiorPublicacion{
+    margin-top: 0.3rem;
+    width: 100%;
+}
+
+.datosComentariosPublicacion{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+}
+
+.datosComentariosPublicacion a{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.botonLike .iconosPublicacion{
+    background-position: -3px 0px;
+    background-repeat: no-repeat;
+}
+
+.botonLike{
+    width: 1.89rem;
+}
+
+.botonComentar .iconosPublicacion{
+    background-position: -40px 0px;
+    background-repeat: no-repeat;
+}
+
+.botonComentar{
+    display: flex;
+    justify-content: center;
+    width: 2.5rem;
+}
+
+.botonEnviar .iconosPublicacion{
+    background-position: -80px 0px;
+    background-repeat: no-repeat;
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: center;
+    width: 2.5rem;
+}
+
+.botonGuardar .iconosPublicacion{
+    background-position: -114px 0px;
+    background-repeat: no-repeat;
+}
+
+.botonGuardar{
+    display: flex;
+    justify-content: center;
+}
+
+.botonesInteractivosPublicacion{
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+}
+
+.botonGuardarPublicacion{
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cantidadDeLikes{
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.userYDescripcionPublicacion{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.userYDescripcionPublicacion p span{
+    font-weight: 600;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
+.userYDescripcionPublicacion textarea {
+    margin-top: 8px;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 80%;
+    color: white;
+    height: 18px !important;
+    max-height: 80px;
+
+}
+
+.userYDescripcionPublicacion textarea:focus-visible{
+    outline: none;
+}
